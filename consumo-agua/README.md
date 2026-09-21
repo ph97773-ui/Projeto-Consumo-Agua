@@ -14,7 +14,7 @@ Este projeto foi feito para uma atividade de Desenvolvimento de Sistemas I. A id
 
 
 
-O programa foi feito em **Python** e recebe duas informações: o tipo do imóvel e o consumo mensal de água em metros cúbicos (m³).
+O programa foi feito em Python. Ele recebe o tipo do imóvel e o consumo mensal de água em metros cúbicos (m³).
 
 
 
@@ -22,26 +22,28 @@ O programa foi feito em **Python** e recebe duas informações: o tipo do imóve
 
 
 
-- Se o imóvel for comercial, aparece a mensagem sobre a tarifa comercial.
-- 
-- Se for apartamento e o consumo for menor que 10 m³, o consumo é considerado econômico.
-- 
-- Se for apartamento ou casa e o consumo for de até 25 m³, o resultado é consumo moderado.
-- 
-- Nos outros casos, aparece um alerta de consumo excessivo.
-- 
+**Imóvel comercial:** aparece a mensagem sobre a tarifa comercial.
+
+
+
+**Apartamento abaixo de 10 m³:** o consumo é considerado econômico.
+
+
+
+**Apartamento ou casa até 25 m³:** o resultado é consumo moderado.
+
+
+
+**Outros casos:** aparece um alerta de consumo excessivo.
+
 
 
 ## Como executar
 
 
 
-1. Instale o Python 3.
-2. 
-2. Abra o terminal na pasta `consumo-agua`.
-3. 
-3. Execute:
-4. 
+Instale o Python 3 e abra o terminal na pasta `consumo-agua`. Depois, execute:
+
 
 
 ```bash
@@ -52,35 +54,39 @@ python app.py
 
 
 
-4. Digite o tipo de imóvel e o consumo quando o programa pedir.
-5. 
+Digite o tipo de imóvel e o consumo quando o programa pedir.
+
 
 
 ## Arquivos
 
 
 
-- `app.py`: código do programa.
-- 
-- `README.md`: explicação do projeto.
-- 
+`app.py` é o código do programa.
+
+
+
+`README.md` explica o projeto e como executá-lo.
+
 
 
 ## Exemplos
 
 
 
-| Imóvel | Consumo | Resultado |
+Comercial e 100 m³: tarifa comercial.
 
-|---|---:|---|
 
-| comercial | 100 | Tarifa comercial |
 
-| apartamento | 9 | Consumo econômico |
+Apartamento e 9 m³: consumo econômico.
 
-| casa | 25 | Consumo moderado |
 
-| apartamento | 30 | Consumo excessivo |
+
+Casa e 25 m³: consumo moderado.
+
+
+
+Apartamento e 30 m³: consumo excessivo.
 
 
 
@@ -89,14 +95,4 @@ python app.py
 
 
 Paulo Henrique L. Rodrigues
-
-
-
-
-
-
-
-
-
-
 
