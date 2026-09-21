@@ -2,80 +2,46 @@
 
 
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-reposit%C3%B3rio-181717?logo=github&logoColor=white)
-
-![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-2ea44f)
-
-![Educação ambiental](https://img.shields.io/badge/tema-educa%C3%A7%C3%A3o%20ambiental-2E8B57)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-reposit%C3%B3rio-181717?logo=github&logoColor=white)
 
 
 
-## 🎯 Objetivo
+## Sobre o projeto
 
 
 
-O **Consumo de Água** é um programa em Python criado para uma campanha de conscientização ambiental de uma companhia de saneamento. O sistema solicita o tipo de imóvel e o consumo mensal de água em metros cúbicos (m³). Em seguida, classifica o perfil de consumo e exibe uma mensagem educativa para o morador.
+Este projeto foi feito para uma atividade de Desenvolvimento de Sistemas I. A ideia é criar um programa simples para classificar o consumo de água de diferentes tipos de imóveis e mostrar uma mensagem de orientação.
 
 
 
-## 🧠 Regras de negócio
+O programa foi feito em **Python** e recebe duas informações: o tipo do imóvel e o consumo mensal de água em metros cúbicos (m³).
 
 
 
-- Para imóvel **comercial**, o sistema informa que a tarifa comercial foi aplicada e orienta o usuário a consultar o plano corporativo.
+## Regras usadas
+
+
+
+- Se o imóvel for comercial, aparece a mensagem sobre a tarifa comercial.
 - 
-- Para **apartamento** com consumo menor que 10 m³, o sistema classifica o consumo como econômico.
+- Se for apartamento e o consumo for menor que 10 m³, o consumo é considerado econômico.
 - 
-- Para **apartamento** ou **casa** com consumo de até 25 m³, o sistema classifica o consumo como moderado.
+- Se for apartamento ou casa e o consumo for de até 25 m³, o resultado é consumo moderado.
 - 
-- Nos demais casos, o sistema alerta que o consumo é excessivo e recomenda medidas de economia e verificação de vazamentos.
+- Nos outros casos, aparece um alerta de consumo excessivo.
 - 
 
 
-## 🛠️ Tecnologias utilizadas
+## Como executar
 
 
 
-- **Python 3**
-- 
-- Entrada e saída de dados com `input()` e `print()`
-- 
-- Estruturas condicionais `if`, `elif` e `else`
-- 
-- Validação de dados com repetição `while`
-- 
-
-
-## 📁 Estrutura do projeto
-
-
-
-```text
-
-consumo-agua/
-
-├── app.py
-
-└── README.md
-
-```
-
-
-
-## ▶️ Como executar
-
-
-
-1. Instale o [Python 3](https://www.python.org/downloads/), caso ainda não esteja instalado.
+1. Instale o Python 3.
 2. 
-2. Clone este repositório ou baixe os arquivos do projeto.
+2. Abra o terminal na pasta `consumo-agua`.
 3. 
-3. Abra o terminal dentro da pasta `consumo-agua`.
+3. Execute:
 4. 
-4. Execute o comando:
-5. 
 
 
 ```bash
@@ -86,33 +52,31 @@ python app.py
 
 
 
-Em alguns sistemas, pode ser necessário usar:
+4. Digite o tipo de imóvel e o consumo quando o programa pedir.
+5. 
+
+
+## Arquivos
 
 
 
-```bash
-
-python3 app.py
-
-```
-
+- `app.py`: código do programa.
+- 
+- `README.md`: explicação do projeto.
+- 
 
 
-5. Informe o tipo de imóvel e o consumo mensal quando solicitado.
-6. 
-
-
-## 🧪 Exemplos de teste
+## Exemplos
 
 
 
-| Tipo de imóvel | Consumo | Resultado esperado |
+| Imóvel | Consumo | Resultado |
 
 |---|---:|---|
 
-| comercial | 100 | Tarifa comercial aplicada |
+| comercial | 100 | Tarifa comercial |
 
-| apartamento | 9,5 | Consumo econômico |
+| apartamento | 9 | Consumo econômico |
 
 | casa | 25 | Consumo moderado |
 
@@ -120,22 +84,11 @@ python3 app.py
 
 
 
-## 🌱 Conscientização
+## Autor
 
 
 
-Pequenas mudanças de hábito ajudam a reduzir o desperdício de água. Verificar vazamentos, fechar a torneira durante atividades de higiene e acompanhar o consumo mensal são atitudes importantes para o uso responsável desse recurso.
-
-
-
-## 👤 Autor
-
-
-
-**Paulo Henrique L. Rodrigues**
-
-
-
+Paulo Henrique L. Rodrigues
 
 
 
